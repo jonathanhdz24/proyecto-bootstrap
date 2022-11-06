@@ -1,0 +1,132 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(106, 5, 5);
+    background-image: url();
+    background-size: cover;
+    font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    height: 20px;
+    text-align: center;
+   
+}
+
+nav{
+    background-color: rgb(25, 25, 248);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width:auto ;
+    height: auto;
+    font-family: 'Monserrat', sans-serif;
+    
+
+}
+    
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav a:hover{
+    transition: 0.2s;
+    font-size: 20px;
+}
+nav li>a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Monserrat', sans-serif;
+    text-anchor: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+nav li>a:hover{
+transition: 0.2s;
+font-size: 20px;
+}
+
+h5{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    
+
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#bg-contacto{
+    position: relative;
+    top: -130px;
+    max-height: 40%;
+    
+    
+    
+
+}
+#seccion-contacto{
+    background-color: #5c83de;
+    min-height: 800px;
+    position: relative;
+}
+
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+    max-height: 30%;
+   
+}
+
+#titulo-formulario{
+    color: #3f3f3f;
+
+}
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 70px;
+    padding: 0 8px;
+    color: #f6eaea;
+    text-align: center;
+   height: 80px;
+}
